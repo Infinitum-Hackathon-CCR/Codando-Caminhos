@@ -15,8 +15,7 @@ export default function Landing() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage:
-                "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
+              backgroundImage: "url(https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg)",
             }}
           >
             <span
@@ -26,15 +25,15 @@ export default function Landing() {
           </div>
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
-              <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+              <div className="w-full lg:w-6/12 px -4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h1 className="text-white font-semibold text-5xl">
-                    Your story starts with us.
+                    Codando Caminhos
                   </h1>
                   <p className="mt-4 text-lg text-gray-300">
-                    This is a simple example of a Landing Page you can build
-                    using Notus React. It features multiple CSS components based
-                    on the Tailwind CSS design system.
+                  Nossa maior fraqueza está em desistir. O caminho mais certo de vencer é tentar mais uma vez.
+
+<br />Thomas Edison
                   </p>
                 </div>
               </div>
@@ -70,10 +69,9 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                       <i className="fas fa-award"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Awarded Agency</h6>
+                    <h6 className="text-xl font-semibold">Ensinando Tecnologia</h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      Divide details about your product or agency work into
-                      parts. A paragraph describing a feature will be enough.
+                      O nosso foco inicial é na introdução do jovem no universo do desenvolvimento web. Nos módulos iniciais aprenderá sobre HTML5, CSS3 e JavaScript, tornando aptos a desenvolverem seus primeiros websites. 
                     </p>
                   </div>
                 </div>
@@ -85,10 +83,9 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
                       <i className="fas fa-retweet"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Free Revisions</h6>
+                    <h6 className="text-xl font-semibold">Combate a Evasão Escolar</h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      Keep you user engaged by providing meaningful information.
-                      Remember that by this time, the user is curious.
+                      O sistema irá acompanhar os rendimentos dos alunos em suas respectivas escolas públicas. Sempre que for percebido notas vermelhas e baixa frequência, proporemos soluções tais como reforços escolares com parceiros.
                     </p>
                   </div>
                 </div>
@@ -100,10 +97,9 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
                       <i className="fas fa-fingerprint"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Verified Company</h6>
+                    <h6 className="text-xl font-semibold">Oportunizando um Futuro</h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      Write a few lines about each one. A paragraph describing a
-                      feature will be enough. Keep you user engaged!
+                      Com o jovem brasileiro nas escolas e introduzidos no universo do desenvolvimento web é possível lhes permitir sonhar com uma boa colocação no mercado de trabalho no futuro.
                     </p>
                   </div>
                 </div>
@@ -116,30 +112,21 @@ export default function Landing() {
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                  Working with us is a pleasure
+                  Plantando uma semente no hoje
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                  Don't let your uses guess by attaching tooltips and popoves to
-                  any element. Just make sure you enable them first via
-                  JavaScript.
+                 Acreditamos que ao darmos as ferramentas necessárias para que o jovem se desenvolva profisionnalmente para o universo digital, eles poderão enxergar um novo horizonte com mais clareza e esperança.
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-                  The kit comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and you're
-                  good to go. Just make sure you enable them first via
-                  JavaScript.
+                  Queremos dar ao jovem uma oportunidade a seu próprio futuro. Temos consciência de que assim estaremos também lutando contra a desigualdade social.
                 </p>
-                <Link to="/" className="font-bold text-gray-800 mt-8">
-                  Check Notus React!
-                </Link>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blue-600">
                   <img
                     alt="..."
-                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
-                    className="w-full align-middle rounded-t-lg"
+                    src="https://image.freepik.com/fotos-gratis/reserve-na-biblioteca-com-livro-aberto_1150-5920.jpg"
                   />
                   <blockquote className="relative p-8 mb-4">
                     <svg
@@ -154,12 +141,10 @@ export default function Landing() {
                       ></polygon>
                     </svg>
                     <h4 className="text-xl font-bold text-white">
-                      Top Notch Services
+                      Didática Acertiva
                     </h4>
                     <p className="text-md font-light mt-2 text-white">
-                      The Arctic Ocean freezes every winter and much of the
-                      sea-ice then thaws every summer, and that process will
-                      continue whatever happens.
+                      Todo o conteúdo da plataforma é direcionado pra ser um guia prático e visual, para que seja aprendido e colocado em prática rapidamente.
                     </p>
                   </blockquote>
                 </div>
@@ -195,7 +180,7 @@ export default function Landing() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                  src="https://static.imasters.com.br/wp-content/uploads/2018/01/NOW-1.jpg"
                 />
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
@@ -203,11 +188,9 @@ export default function Landing() {
                   <div className="text-blue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-blue-300">
                     <i className="fas fa-rocket text-xl"></i>
                   </div>
-                  <h3 className="text-3xl font-semibold">A growing company</h3>
+                  <h3 className="text-3xl font-semibold">Visamos a Evolução Constante</h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                    The extension comes with three pre-built pages to help you
-                    get started faster. You can change the text and images and
-                    you're good to go.
+                    A ideia é ir adicionando novos materiais constantemente afim de desenvolver as habilidades dos jovens de maneira mais atrativa para o mercado de trabalho. Iniciamos nossos estudos na tríade fundamental do desenvolvimento web: 
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
@@ -219,7 +202,7 @@ export default function Landing() {
                         </div>
                         <div>
                           <h4 className="text-gray-600">
-                            Carefully crafted components
+                            HTML5
                           </h4>
                         </div>
                       </div>
@@ -233,7 +216,7 @@ export default function Landing() {
                         </div>
                         <div>
                           <h4 className="text-gray-600">
-                            Amazing page examples
+                            CSS3
                           </h4>
                         </div>
                       </div>
@@ -246,7 +229,7 @@ export default function Landing() {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-gray-600">Dynamic components</h4>
+                          <h4 className="text-gray-600">JavaScript</h4>
                         </div>
                       </div>
                     </li>
@@ -261,11 +244,9 @@ export default function Landing() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold">Here are our heroes</h2>
+                <h2 className="text-4xl font-semibold">O time por trás do projeto</h2>
                 <p className="text-lg leading-relaxed m-4 text-gray-600">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record maximum.
+                  Um time totalmente ao acaso. Uma sucessão não bem ordenada de fatos nos trouxe até aqui e esperamos contribuir com uma causa tão nobre quanto é a que a Codando Caminhos luta: uma sociedade mais justa equalitária.
                 </p>
               </div>
             </div>
@@ -274,13 +255,13 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-1-800x800.jpg")}
+                    src={"https://avatars3.githubusercontent.com/u/66493294?s=460&u=50e3930bc4a18cddb9c082e3db1f1bfbdf8d4cfe&v=4"}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Ryan Tompson</h5>
+                    <h5 className="text-xl font-bold">Paulo Simões</h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Web Developer
+                      Desenvolvedor Web
                     </p>
                     <div className="mt-6">
                       <button
@@ -309,13 +290,13 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-2-800x800.jpg")}
+                    src={"https://avatars0.githubusercontent.com/u/71514696?s=460&u=0e64c99eae432daabb87059fbc23738387e7c50c&v=4"}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Romina Hadid</h5>
+                    <h5 className="text-xl font-bold">Ruani Filipe</h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Marketing Specialist
+                      Business e Marketing
                     </p>
                     <div className="mt-6">
                       <button
@@ -338,11 +319,11 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-3-800x800.jpg")}
+                    src={"https://avatars3.githubusercontent.com/u/37716720?s=460&u=3ef5f70fd59327595fcba87d28c51e4e0f20393f&v=4"}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Alexa Smith</h5>
+                    <h5 className="text-xl font-bold">Natanael Neto</h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
                       UI/UX Designer
                     </p>
@@ -373,13 +354,13 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-4-470x470.png")}
+                    src={"https://avatars3.githubusercontent.com/u/72285775?s=460&u=eea5b615cf126af5d3dfccecf558c0bd23b631b1&v=4"}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Jenna Kardi</h5>
+                    <h5 className="text-xl font-bold">Luís Avila</h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Founder and CEO
+                      Fundador e CEO
                     </p>
                     <div className="mt-6">
                       <button
@@ -439,16 +420,14 @@ export default function Landing() {
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold text-white">
-                  Build something
+                  Quer fazer parte da mudança?
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                  Put the potentially record low maximum sea ice extent tihs
-                  year down to low ice. According to the National Oceanic and
-                  Atmospheric Administration, Ted, Scambos.
+                  Ajude a Codando Caminhos com com doações, suporte e tecnologias que corroborem como nosso propósito: ensinar desenvolvimento web ao jovem estudante da rede pública e combater a evasão escolar.
                 </p>
               </div>
             </div>
-            <div className="flex flex-wrap mt-12 justify-center">
+            {/* <div className="flex flex-wrap mt-12 justify-center">
               <div className="w-full lg:w-3/12 px-4 text-center">
                 <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
                   <i className="fas fa-medal text-xl"></i>
@@ -485,7 +464,7 @@ export default function Landing() {
                   the bulk of the card's content.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
         <section className="relative block py-24 lg:pt-0 bg-gray-900">
@@ -495,18 +474,17 @@ export default function Landing() {
                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
                   <div className="flex-auto p-5 lg:p-10">
                     <h4 className="text-2xl font-semibold">
-                      Want to work with us?
+                      Contato
                     </h4>
                     <p className="leading-relaxed mt-1 mb-4 text-gray-600">
-                      Complete this form and we will get back to you in 24
-                      hours.
+                      Mande-nos uma mensagem preenchendo os campos abaixo.
                     </p>
                     <div className="relative w-full mb-3 mt-8">
                       <label
                         className="block uppercase text-gray-700 text-xs font-bold mb-2"
                         htmlFor="full-name"
                       >
-                        Full Name
+                        Nome
                       </label>
                       <input
                         type="text"
@@ -534,7 +512,7 @@ export default function Landing() {
                         className="block uppercase text-gray-700 text-xs font-bold mb-2"
                         htmlFor="message"
                       >
-                        Message
+                        Mensagem
                       </label>
                       <textarea
                         rows="4"
@@ -548,7 +526,7 @@ export default function Landing() {
                         className="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                       >
-                        Send Message
+                        Enviar
                       </button>
                     </div>
                   </div>

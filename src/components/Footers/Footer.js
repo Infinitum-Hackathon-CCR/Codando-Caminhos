@@ -26,9 +26,9 @@ export default function Footer() {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap text-center lg:text-left">
             <div className="w-full lg:w-6/12 px-4">
-              <h4 className="text-3xl font-semibold">Let's keep in touch!</h4>
+              <h4 className="text-3xl font-semibold">Bora codar?</h4>
               <h5 className="text-lg mt-0 mb-2 text-gray-700">
-                Find us on any of these platforms, we respond 1-2 business days.
+                Se você é estudande da rede pública de ensino, cadastre-se agora e desenvolva habilidades de um desenvolvedor web.
               </h5>
               <div className="mt-6 lg:mb-0 mb-6">
                 <button
